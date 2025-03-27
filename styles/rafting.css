@@ -33,6 +33,16 @@ nav a:hover {
     text-decoration: underline;
 }
 
+img {
+    max-width: 100%; /* Ensures pictures doesn't overflow */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.logo {
+    width: 150px; /* Adjust this to your preferred size */
+    height: auto; /* Keeps proportions */
+}
+
 /* Hero Section */
 .hero {
     position: relative;
